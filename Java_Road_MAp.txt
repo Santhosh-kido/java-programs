@@ -1,0 +1,120 @@
+------------------------------------------------------------------------------------------------------------------------------------------------
+Java - Rpad Map(full)|
+---------------------
+
+1. Variables & Data Types
+2. Operators (Arithmetic, Logical, Bitwise)                                    
+3. Conditional Statements (if, switch)
+4. Loops (for, while, do-while, enhanced for)
+5. Arrays
+6. ArrayList & Collections
+7. Methods & Recursion
+8. Object-Oriented Programming
+   ├── Classes & Objects
+   ├── Inheritance
+   ├── Polymorphism
+   ├── Abstraction (abstract classes, interfaces)
+   └── Encapsulation
+9. Exception Handling (try-catch-finally, custom exceptions)
+10. Strings & StringBuilder
+11. Wrapper Classes & Autoboxing
+12. Static vs Instance Concepts
+13. Inner Classes & Anonymous Classes
+14. File I/O (java.io, java.nio)
+15. Java Collections Framework
+    ├── List, Set, Map
+    ├── HashMap, TreeMap, LinkedHashMap
+    ├── HashSet, TreeSet
+    └── Queue, Stack, PriorityQueue
+16. Generics
+17. Lambda Expressions & Functional Interfaces
+18. Streams API (filter, map, reduce)
+19. Multithreading & Concurrency
+    ├── Thread class & Runnable
+    ├── ExecutorService
+    ├── Synchronization
+    └── Locks & Concurrent Collections
+20. Reflection API
+21. Annotations & Custom Annotations
+22. Java 8+ Features (Optional, LocalDate, etc.)
+23. JVM Internals (Memory Model, GC, ClassLoader)
+24. Design Patterns (Singleton, Factory, Strategy, etc.)
+25. Unit Testing (JUnit, Mockito)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Arrays and Colections  |
+-----------------------
+
+// 🔢 Array – Find the Second Largest Element
+int[] nums = {3, 5, 1, 9, 7};
+// Output: 7
+
+// 📦 ArrayList – Remove All Even Numbers
+ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));
+// Output: [1, 3, 5]
+
+// 🔗 LinkedList – Reverse Without Collections.reverse()
+LinkedList<String> names = new LinkedList<>(Arrays.asList("A", "B", "C"));
+// Output: ["C", "B", "A"]
+
+// 🗺️ HashMap – Count Frequency of Characters in a String
+String input = "banana";
+// Output: {b=1, a=3, n=2}
+
+// 🌳 TreeMap – Store Student Scores Sorted by Name
+TreeMap<String, Integer> scores = new TreeMap<>();
+scores.put("Zara", 88);
+scores.put("Arun", 92);
+scores.put("Maya", 85);
+// Output: Sorted by name → {Arun=92, Maya=85, Zara=88}
+
+// 🧮 HashSet – Detect Duplicates in an Array
+int[] values = {1, 2, 3, 4, 2};
+// Output: true (duplicate exists)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+OOPS |
+-----
+
+// 🧱 Encapsulation
+// Create a BankAccount class with private fields: accountNumber, balance.
+// Provide public methods: deposit(), withdraw(), getBalance().
+// Prevent withdrawal if balance is insufficient.
+
+// 🧬 Inheritance
+// Create a base class Vehicle with fields: speed, color.
+// Derive Car and Bike classes that inherit from Vehicle and add unique methods.
+
+// 🎭 Polymorphism
+// Create a base class Shape with a method area().
+// Derive Circle and Rectangle classes that override area() to compute their areas.
+
+// 🧩 Abstraction
+// Create an abstract class Employee with an abstract method calculateSalary().
+// Implement FullTimeEmployee and PartTimeEmployee with different salary logic.
+
+// 🧠 Constructor Overloading
+// Create a Student class with overloaded constructors:
+// - One with name and age
+// - One with name, age, and grade
+// Print all details using a method.
+
+// 🧰 Interface Implementation
+// Create an interface Playable with a method play().
+// Implement it in Guitar and Piano classes with different play() messages.
+
+// 🔄 Method Overloading
+// Create a Calculator class with overloaded add() methods:
+// - add(int a, int b)
+// - add(int a, int b, int c)
+// - add(double a, double b)
+
+// 🧼 Static Members
+// Create a Counter class with a static variable count.
+// Increment count every time a new object is created.
+// Print count using a static method.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
